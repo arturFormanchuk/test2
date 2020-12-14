@@ -1,0 +1,13 @@
+.position{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+    .position{
+        width: 80%;
+
+    }
+}

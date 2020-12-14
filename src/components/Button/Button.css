@@ -1,0 +1,29 @@
+.button__wrapper{
+    border-radius: 35px;
+    border: 1px transparent;
+    width: 180px;
+    height: 55px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    outline: none;
+    transition: all .3s;
+}
+
+.button__wrapper:hover{
+    background-color: grey;
+    color: #FFFFFF!important;
+}
+
+@media screen and (max-width: 400px) {
+    .button__wrapper{
+        width: 150px;
+        height: 45px;
+    }
+}

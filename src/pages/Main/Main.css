@@ -1,0 +1,64 @@
+.containerData{
+    width: 60%;
+    height: 60vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.logsInfo{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+
+}
+
+.logsSub{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    color: #868686;
+
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width: 400px) {
+    .logsInfo{
+
+        font-size: 28px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 20px;
+        color: #000000;
+
+    }
+
+    .logsSub{
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 21px;
+        color: #868686;
+
+    }
+    .containerData{
+        width: 50%;
+        height: 60vh;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+}
